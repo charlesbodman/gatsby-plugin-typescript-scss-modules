@@ -14,10 +14,10 @@
     "css",
     "typescript"
   ],
-  "author": "Chad sheets",
+  "author": "Chad Sheets",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/cjsheets/gatsby-plugin-typescript-scss-modules"
   },
   "license": "ISC",
   "jest": {
