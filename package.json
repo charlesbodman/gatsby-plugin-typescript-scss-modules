@@ -1,53 +1,52 @@
 {
-  "name": "gatsby-plugin-typescript-scss-modules",
-  "version": "1.0.7",
-  "description": "A gatsbyjs plugin for using SCSS Modules and Typescript",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "prepublishOnly": "npm run test && npm run build",
-    "version": "standard-version"
-  },
-  "keywords": [
-    "gatsby",
-    "css",
-    "typescript"
-  ],
-  "author": "Chad Sheets",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cjsheets/gatsby-plugin-typescript-scss-modules"
-  },
-  "license": "ISC",
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "testEnvironment": "node",
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    "name": "gatsby-plugin-typescript-scss-modules",
+    "version": "1.0.7",
+    "description": "A gatsbyjs plugin for using SCSS Modules and Typescript",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepublishOnly": "npm run test && npm run build",
+        "version": "standard-version"
     },
-    "testMatch": [
-      "**/__tests__/*.spec.(ts|tsx)"
-    ]
-  },
-  "devDependencies": {
-    "@types/jest": "^22.0.0",
-    "jest": "^22.0.4",
-    "standard-version": "^4.2.0",
-    "typescript": "^2.6.2"
-  },
-  "dependencies": {
-    "extract-text-webpack-plugin": "^1.0.1",
-    "gatsby-1-config-css-modules": "^1.0.8",
-    "node-sass": "^4.5.2",
-    "postcss-loader": "^2.0.9",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.19.1",
-    "typings-for-css-modules-loader": "^1.7.0",
-    "webpack": "^1.15.0"
-  }
+    "keywords": [
+        "gatsby",
+        "css",
+        "typescript"
+    ],
+    "author": "Chad Sheets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjsheets/gatsby-plugin-typescript-scss-modules"
+    },
+    "license": "ISC",
+    "jest": {
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "testEnvironment": "node",
+        "transform": {
+            "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+        },
+        "testMatch": [
+            "**/__tests__/*.spec.(ts|tsx)"
+        ]
+    },
+    "devDependencies": {
+        "@types/jest": "^22.0.0",
+        "jest": "^22.0.4",
+        "standard-version": "^4.2.0",
+        "typescript": "^2.6.2"
+    },
+    "dependencies": {
+        "extract-text-webpack-plugin": "^3.0.2",
+        "node-sass": "^4.11.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "typings-for-css-modules-loader": "^1.7.0",
+        "webpack": "^4.28.4"
+    }
 }
