@@ -26,7 +26,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
         loader: ExtractTextPlugin.extract({
             fallback: 'style-loader', use: [
                 cssTypescriptTypings,
-                loaders.postcss(stage),
+                loaders.postcss(),
                 sassLoader
             ]
         })
